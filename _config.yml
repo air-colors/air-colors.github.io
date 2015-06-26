@@ -3,13 +3,10 @@
 # ----------------------- #
 
 url: http://yoursite.com
-title: Your Awesome Site
-email: your-email@domain.com
-author: Your Name
-description: > # "Write an awesome description for your new site here. 
-  You can edit this line in _config.yml. It will appear in your document 
-  head meta (for Google search results) and in your feed.xml site 
-  description."
+title: Air Colors App
+email: benoitvallon@gmail.com
+author: Benoit VALLON
+description: Air Colors is an App that allows you to know about your Air Quality environment.
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -25,8 +22,6 @@ permalink: pretty
 
 social:
   - title: twitter
-    url: https://twitter.com/SBootstrap
+    url: https://twitter.com/air-colors
   - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
-  - title: linkedin
-    url: 
+    url: https://github.com/air-colors
