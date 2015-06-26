@@ -13,19 +13,43 @@ h5,
 h6 {
   font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
+  color: white;
 }
 
+.navbar-default a.navbar-brand,
+.navbar-default a.navbar-brand:visited,
+.navbar-default a.navbar-brand:link,
+.navbar-default a.navbar-brand:hover {
+  color: white;
+  background-image: url(../img/logo-transparent.png);
+  width: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 110px;
+  vertical-align: baseline;
+  line-height: 66px;
+  font-size: 30px;
+  height: 100px;
+}
 .lead {
   font-size: 18px;
-  font-weight: 400;
+}
+
+.home h1,
+.home h3 {
+  color: white;
+}
+.home h1 {
+    font-size: 60px;
+    text-align: right;
 }
 
 .intro-header {
-  padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+  padding-top: 100px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
   padding-bottom: 50px;
   text-align: center;
   color: #f8f8f8;
-  background: url(../img/intro-bg.jpg) no-repeat center center;
+  background: url(../img/intro-bg-perso.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -35,14 +59,53 @@ h6 {
   padding-bottom: 20%;
 }
 
-.intro-message > h1 {
-  margin: 0;
-  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-  font-size: 5em;
+.iphone-preview {
+  width: 100%;
+}
+.navbar {
+  transition: all .3s;
+}
+.navbar-default.navbar-scrolled {
+  background-color: #1fc8ff;
+}
+@media(min-width:768px) {
+  .navbar-nav.navbar-right {
+    padding-top: 24px;
+    color: white;
+  }
+}
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+  color: white;
+  text-decoration: underline;
+  background-color: transparent;
 }
 
-.intro-message > h3 {
-  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+.navbar-toggle {
+  margin-top: 32px;
+}
+.navbar-default .navbar-toggle {
+  border-color: white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  transition: background .3s;
 }
 
 @media(max-width:767px) {
@@ -55,19 +118,23 @@ h6 {
   }
 }
 
+/*Content section with key points*/
 .content-section {
   padding: 50px 0;
-  background-color: #f8f8f8;
-  text-align: center;
 }
-
-.section-heading {
+.key-point {
+  padding:0 50px;
+  text-align: center;
+  color: gray;
+}
+.key-point .title {
   margin-bottom: 30px;
+  color: gray;
 }
 
 footer {
   padding: 50px 0;
-  background-color: #f8f8f8;
+  background-color: #1fc8ff;
 }
 
 p.copyright {

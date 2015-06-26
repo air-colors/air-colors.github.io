@@ -14,6 +14,15 @@ $('body').scrollspy({
   target: '.navbar-fixed-top'
 });
 
+document.querySelector('body').onscroll = function() {
+  if($(window).scrollTop() > 100) {
+    $('.navbar').addClass('navbar-scrolled');
+  } else {
+    $('.navbar').removeClass('navbar-scrolled');
+  }
+};
+
+
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
   $('.navbar-toggle:visible').click();
