@@ -8,6 +8,10 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
+  {% if site.google.webmaster-tools %}
+    <meta name="google-site-verification" content="{{ site.google.webmaster-tools }}">
+  {% endif %}
+
   <!-- Bootstrap Core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
 
