@@ -11,8 +11,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700;
+  font-family: "Apple SD Gothic Neo","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: normal;
   color: white;
 }
 
@@ -27,7 +27,7 @@ h6 {
   background-repeat: no-repeat;
   padding-left: 110px;
   vertical-align: baseline;
-  line-height: 66px;
+  line-height: 72px;
   font-size: 30px;
   height: 100px;
 }
@@ -38,10 +38,29 @@ h6 {
 .home h1,
 .home h3 {
   color: white;
+  text-align: center;
+}
+.home h3 {
+  font-weight: 100;
+  font-size: 26px;
 }
 .home h1 {
-    font-size: 60px;
+  font-size: 70px;
+}
+@media(min-width:992px) {
+  .home h1,
+  .home h3 {
     text-align: right;
+  }
+}
+
+.app-store-link {
+  background: url(../img/app-store-button.png) no-repeat center center;
+  height: 74px;
+  width: 200px;
+  display: inline-block;
+  background-size: contain;
+  margin-top: 30px;
 }
 
 .intro-header {
@@ -49,7 +68,7 @@ h6 {
   padding-bottom: 50px;
   text-align: center;
   color: #f8f8f8;
-  background: url(../img/intro-bg-perso.jpg) no-repeat center center;
+  background: url(../img/intro-bg.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -57,7 +76,14 @@ h6 {
   position: relative;
   padding-top: 20%;
   padding-bottom: 20%;
+  text-align: right;
 }
+@media(max-width:991px) {
+  .intro-message {
+    text-align: center;
+  }
+}
+
 
 .iphone-preview {
   width: 100%;
@@ -123,7 +149,7 @@ h6 {
   padding: 50px 0;
 }
 .key-point {
-  padding:0 50px;
+  padding:0 30px;
   text-align: center;
   color: #959595;
 }
