@@ -66,7 +66,7 @@ h6 {
   transition: all .3s;
 }
 .navbar-default.navbar-scrolled {
-  background-color: #1fc8ff;
+  background-color: #38c6ff;
 }
 @media(min-width:768px) {
   .navbar-nav.navbar-right {
@@ -125,16 +125,17 @@ h6 {
 .key-point {
   padding:0 50px;
   text-align: center;
-  color: gray;
+  color: #959595;
 }
 .key-point .title {
   margin-bottom: 30px;
-  color: gray;
+  color: #38c6ff;
+  font-weight: 100;
 }
 
 footer {
   padding: 50px 0;
-  background-color: #1fc8ff;
+  background-color: #38c6ff;
 }
 
 p.copyright {
