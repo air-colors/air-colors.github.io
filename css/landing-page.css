@@ -158,6 +158,10 @@ h6 {
   color: #38c6ff;
   font-weight: 100;
 }
+.key-point .glyphicon {
+  color: #bbbbbb;
+  font-size: 60px;
+}
 
 footer {
   padding: 10px 0;
